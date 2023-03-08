@@ -38,7 +38,7 @@ namespace UmbrellaAcademy.Roster.Data
         {
             LoadMembers();
 
-            return members?.Skip((pageIndex + 1) * pageSize).Take(pageIndex + 1).ToArray() ?? Array.Empty<Member>();
+            return members?.Skip(pageIndex * pageSize).Take(pageSize).ToArray() ?? Array.Empty<Member>();
         }
 
         private void LoadMembers()
