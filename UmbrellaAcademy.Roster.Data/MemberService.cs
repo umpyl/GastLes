@@ -17,19 +17,19 @@ namespace UmbrellaAcademy.Roster.Data
         {
             LoadMembers();
 
-            //if (members == null)
-            //{
-            //    return null;
-            //}
-            
-            //for (int i = 0; i < members.Length - 1; i++)
-            //{
-            //    var member = members[i];
-            //    if (member.Number == number)
-            //    {
-            //        return member;
-            //    }
-            //}
+            if (members == null)
+            {
+                return null;
+            }
+
+            for (int i = 0; i < members.Length - 1; i++)
+            {
+                var member = members[i];
+                if (member.Number == number)
+                {
+                    return member;
+                }
+            }
 
             return new Member();
         }
