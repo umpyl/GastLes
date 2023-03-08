@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Umbrella Academy Roster</title>
+    <script src="js/application.js"></script>
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body onload="loadMembers()">
+    <input type="text" id="number" name="name" placeholder="Member number" value="" />
+    <button id="searchBtn" onclick="searchByNumber()">Search</button>
+    <table class="styled-table">
+        <tr>
+            <td>.</td>
+            <td>Name</td>
+            <td>Nicknames</td>
+            <td>Number</td>
+            <td>Skills</td>
+        </tr>
+        <tbody id="members"></tbody>
+    </table>
+    <script>
+        var input = document.getElementById("number");
+        input.addEventListener("keypress", function (event) {
+            if (event.key === "Enter") {
+                event.preventDefault();
+                document.getElementById("searchBtn").click();
+            }
+        });
+    </script>
+</body>
+</html>

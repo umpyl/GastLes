@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UmbrellaAcademy.Roster.Api", "UmbrellaAcademy.Roster.Api\UmbrellaAcademy.Roster.Api.csproj", "{DFFBF732-F46E-4474-B0C1-9D0219C9D967}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UmbrellaAcademy.Roster.Domain", "UmbrellaAcademy.Roster.Domain\UmbrellaAcademy.Roster.Domain.csproj", "{F81F7E10-D54E-4DB9-B119-66147D2E42D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UmbrellaAcademy.Roster.Data", "UmbrellaAcademy.Roster.Data\UmbrellaAcademy.Roster.Data.csproj", "{8D496D3C-C61E-41D0-8E7C-D0480CE33215}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UmbrellaAcademy.Roster.Tests", "UmbrellaAcademy.Roster.Tests\UmbrellaAcademy.Roster.Tests.csproj", "{63DD7917-2399-414D-AFCE-99580188F5DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{15FAC819-8641-44CD-8621-7A87B6598E36}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFFBF732-F46E-4474-B0C1-9D0219C9D967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFFBF732-F46E-4474-B0C1-9D0219C9D967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFFBF732-F46E-4474-B0C1-9D0219C9D967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFFBF732-F46E-4474-B0C1-9D0219C9D967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F81F7E10-D54E-4DB9-B119-66147D2E42D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81F7E10-D54E-4DB9-B119-66147D2E42D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F81F7E10-D54E-4DB9-B119-66147D2E42D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F81F7E10-D54E-4DB9-B119-66147D2E42D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D496D3C-C61E-41D0-8E7C-D0480CE33215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D496D3C-C61E-41D0-8E7C-D0480CE33215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D496D3C-C61E-41D0-8E7C-D0480CE33215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D496D3C-C61E-41D0-8E7C-D0480CE33215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63DD7917-2399-414D-AFCE-99580188F5DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63DD7917-2399-414D-AFCE-99580188F5DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63DD7917-2399-414D-AFCE-99580188F5DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63DD7917-2399-414D-AFCE-99580188F5DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44DDAB9C-15BD-46DE-8724-7126F2E91E58}
+	EndGlobalSection
+EndGlobal
